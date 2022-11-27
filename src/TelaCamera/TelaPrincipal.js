@@ -4,7 +4,7 @@ import * as tf from "@tensorflow/tfjs";
 import Webcam from "react-webcam";
 import "./TelaPrincipal.css";
 import { nextFrame } from "@tensorflow/tfjs";
-import { BsFillArrowLeftCircleFill } from "react-icons/bs";
+import { BsFillHouseFill } from "react-icons/bs";
 import { useHistory } from 'react-router-dom';
 
 import {drawRect} from "../utilities"; 
@@ -89,7 +89,7 @@ function TelaPrincipal() {
 
 
       <div class="webcam">
-      <BsFillArrowLeftCircleFill class= "teste2" onClick={() => history.push('/')}/>
+      <BsFillHouseFill class= "home" onClick={() => history.push('/')}/>
         <canvas
           ref={canvasRef}
           style={{
@@ -117,7 +117,7 @@ function TelaPrincipal() {
               left: 0,
               right: 0,
               textAlign: "bottom",
-              zindex: 9,
+              zindex: 1,
               width: 640,
               height: 480,
             }}
@@ -138,10 +138,7 @@ function TelaPrincipal() {
         />
       </div>
 
-       
-
-
-<div class="teste">
+<div class="img-usc">
   <img class="imagem" src="https://cdns1.2rscms.com.br/custom/2008/uploads/header/topo_60f18c0fd3099.png" />
   </div>
       </header>
