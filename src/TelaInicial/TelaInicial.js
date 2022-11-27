@@ -32,8 +32,11 @@ const TelaInicial = () =>{
         }}
       >
 
+        <div class="titulo-bem-vindo"> Bem vindo(a) ao tradutor de libras em tempo real!</div> 
+
         <button class="button-iniciar" role="button" onClick={() => history.push('/tela-principal')}>Tradutor</button>< br />
         <button class="button-sobre" role="button">Sobre</button>
+
 
         </div>
 
