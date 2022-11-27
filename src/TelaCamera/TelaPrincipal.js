@@ -4,10 +4,13 @@ import * as tf from "@tensorflow/tfjs";
 import Webcam from "react-webcam";
 import "./TelaPrincipal.css";
 import { nextFrame } from "@tensorflow/tfjs";
-// 2. TODO - Import drawing utility here
+import { BsFillArrowLeftCircleFill } from "react-icons/bs";
+import { useHistory } from 'react-router-dom';
+
 import {drawRect} from "../utilities"; 
 
 function TelaPrincipal() {
+  const history = useHistory();
   const webcamRef = useRef(null);
   const canvasRef = useRef(null);
 
@@ -86,6 +89,7 @@ function TelaPrincipal() {
 
 
       <div class="webcam">
+      <BsFillArrowLeftCircleFill class= "teste2" onClick={() => history.push('/')}/>
         <canvas
           ref={canvasRef}
           style={{

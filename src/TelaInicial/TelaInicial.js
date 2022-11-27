@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import {NavLink} from "react-router-dom";
+import { BsFillArrowLeftCircleFill } from "react-icons/bs";
 import "./TelaInicial.css";
 import { useHistory } from 'react-router-dom';
 
@@ -30,7 +31,9 @@ const TelaInicial = () =>{
             height: 580,
         }}
       >
-        <button class="botao-iniciar" onClick={() => history.push('/tela-principal')}>INICIAR</button>
+
+        <button class="button-iniciar" role="button" onClick={() => history.push('/tela-principal')}>Tradutor</button>< br />
+        <button class="button-sobre" role="button">Sobre</button>
 
         </div>
 
