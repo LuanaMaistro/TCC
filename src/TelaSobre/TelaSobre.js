@@ -33,10 +33,14 @@ const TelaSobre = () => {
               height: 580,
             }}
           >
-              <p class="titulo">TCC feito por Luana Maistro e Nathan Barbosa</p>
-              <p class="texto">Para esse projeto buscamos desenvolver um software capaz de identificar sinais de Libras, Linguaguem Brasileira de Sinais, com o intuito de auxiliar no parendizado daqueles que querem aprender essa linguagem <br></br><br></br>
-              No desenvolvemineto foram utilziados as linguagens Python para o aprendizado de máquina e React, JavaScript para o desenvolvimnento do front-end<br></br><br></br>
-              Para utilizar o softaware só é necessário realizar o sinal com a mão diante da câmera do computador, que irá mostrar qual o significado daquele sinal automaticamente para o usuário
+              <p class="titulo">Desenvolvido por Luana Maistro e Nathan Barbosa</p>
+              <p class="texto">Este projeto tem como objetivo geral a criação de um software para auxiliar pessoas que são deficientes auditivos a se comunicarem com falantes que não tem conhecimento da Linguagem Brasileira de Sinais.
+              Além de também auxiliar no ensino da mesma.
+               <br></br><br></br>
+              Para utilizar o software é necessário de preferência estar em um local com uma luminação adequada e realizar o sinal em libras com a mão diante da câmera do computador, que irá mostrar qual o significado daquele sinal automaticamente.
+              <br></br><br></br>
+              Para o desenvolvimento foi utilizada a linguagem de programação Python para o aprendizado de máquina, o framework React, e a linguagem JavaScript para o desenvolvimento do <em>front-end</em>.<br></br><br></br>
+
               </p>
 
 
