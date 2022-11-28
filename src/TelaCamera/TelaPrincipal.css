@@ -5,8 +5,8 @@
 
 .home { 
   color: #fff;
-  left: 31.8%;
-  top: 17.1%;
+  left: 32.1%;
+  top: 18%;
   position: absolute;
   z-index: 1;
 }
@@ -65,6 +65,12 @@
   position: absolute; 
   top: 5%; 
   left: 2%;
+}
+
+.imagemLousa{
+  position: absolute;
+  top: 15%;
+  left: 30.5%;
 }
 
 .imagemEuteAmo{
