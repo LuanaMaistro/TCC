@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&family=Schoolbell&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 .App-logo {
   height: 40vmin;
@@ -24,19 +25,20 @@
 
   .texto{
     /*font-family: 'Fredericka the Great', cursive;*/
-    margin-top: 8%;
+    margin-top: 5%;
     font-size: 21px;
     padding-left: 40px;
     padding-right: 40px;
-    font-family: 'Edu VIC WA NT Beginner', cursive;
-    text-align: left;
+    /* font-family: 'Edu VIC WA NT Beginner', cursive; */
+    text-align: justify;
     /* font-family: 'Schoolbell', cursive; */
+    font-family: 'Montserrat', sans-serif;
   }
 
   .home-Sobre { 
     color: #fff;
-    left: 31.8%;
-    top: 17.1%;
+    left: 30%;
+    top: 12%;
     position: absolute;
     z-index: 1;
   }
