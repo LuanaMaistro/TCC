@@ -156,12 +156,14 @@
     position: absolute; 
     top: 5%; 
     right: 2%;
+    z-index: 1;
   }
 
   .imagemLousa{
     position: absolute;
-    top: 15%;
-    left: 30.5%;
+    bottom: 24px;
+    left: -6px;
+    z-index: -1;
   }  
 
   .webcam{
