@@ -27,18 +27,18 @@
 }
 
 .texto {
-    /* font-family: 'Fredericka the Great', cursive; */
-    margin-top: 5%;
-    font-size: 21px;
-    padding-left: 37px;
-    padding-right: 40px;
-    /* font-family: 'Edu VIC WA NT Beginner', cursive; */
-    text-align: justify;
-    /* font-family: 'Schoolbell', cursive; */
-    font-family: 'Montserrat', sans-serif;
-    position: absolute;
-    top: 79px;
-    right: 16px;
+  /* font-family: 'Fredericka the Great', cursive; */
+  margin-top: 5%;
+  font-size: 21px;
+  padding-left: 37px;
+  padding-right: 40px;
+  /* font-family: 'Edu VIC WA NT Beginner', cursive; */
+  text-align: justify;
+  /* font-family: 'Schoolbell', cursive; */
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  top: 79px;
+  right: 16px;
 }
 
 .home-Sobre {
