@@ -112,10 +112,10 @@ function TelaPrincipal() {
                 position: "absolute",
                 marginLeft: "auto",
                 marginRight: "auto",
-                left: 0,
-                right: 0,
+                left: 45,
+                top: 25,
                 textAlign: "bottom",
-                zindex: 1,
+                zindex: 0,
                 width: 640,
                 height: 480,
               }}
@@ -126,10 +126,10 @@ function TelaPrincipal() {
                 position: "absolute",
                 marginLeft: "auto",
                 marginRight: "auto",
-                left: 0,
-                right: 0,
+                left: 45,
+                top: 25,
                 textAlign: "center",
-                zindex: 8,
+                zindex: 0,
                 width: 640,
                 height: 480
               }}
