@@ -4,7 +4,7 @@ const labelMap = {
     3:{name:'I', color:'lime'},
     4:{name:'B', color:'blue'},
     5:{name:'R', color:'black'},
-    6:{name:'A', color:'red'},
+    6:{name:'A', color:'orange'},
     7:{name:'S', color:'purple'}
 
 }
