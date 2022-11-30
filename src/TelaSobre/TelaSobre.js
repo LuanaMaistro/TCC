@@ -36,7 +36,7 @@ const TelaSobre = () => {
               <p class="titulo">Desenvolvido por Luana Maistro e Nathan Barbosa</p>
               <p class="texto">Este projeto tem como objetivo geral a criação de um software para auxiliar pessoas que são deficientes auditivas a se comunicarem com falantes que não têm conhecimento da Linguagem Brasileira de Sinais, além de também auxiliar no ensino da mesma.
                <br></br><br></br>
-              Para utilizar o software é necessário, de preferência, estar em um local com uma iluminação adequada e realizar o sinal em libras com a mão em frente a câmera do computador, que irá mostrar automaticamente qual o significado do sinal.
+              Para utilizar o software é necessário, de preferência, estar em um local com uma iluminação adequada e realizar o sinal em libras com a mão em frente à câmera do computador, que irá mostrar automaticamente qual o significado do sinal.
               <br></br><br></br>
               Para seu desenvolvimento foi utilizada a linguagem de programação Python para o aprendizado de máquina, o framework React e a linguagem JavaScript para o desenvolvimento do <em>front-end</em>.<br></br><br></br>
               </p>

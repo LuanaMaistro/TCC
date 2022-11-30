@@ -50,8 +50,6 @@ function TelaPrincipal() {
       const expanded = casted.expandDims(0)
       const obj = await net.executeAsync(expanded)
 
-      console.log(await obj[7].array())
-
       const boxes = await obj[7].array()
       const classes = await obj[6].array()
       const scores = await obj[4].array()
